@@ -14,10 +14,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let view = FloppyBirdWebView!
         let path = Bundle.main.path(forResource: "index", ofType: "html")!
         let url = URL(string: path)!
         let urlRequest = URLRequest.init(url: url)
-        FloppyBirdWebView.loadRequest(urlRequest)
+        view.allowsInlineMediaPlayback = true
+        view.loadRequest(urlRequest)
     }
     
     override func didReceiveMemoryWarning() {
