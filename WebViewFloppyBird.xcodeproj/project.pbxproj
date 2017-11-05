@@ -12,6 +12,12 @@
 		500440731FAE9C3A00923825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500440711FAE9C3A00923825 /* Main.storyboard */; };
 		500440751FAE9C3A00923825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500440741FAE9C3A00923825 /* Assets.xcassets */; };
 		500440781FAE9C3A00923825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500440761FAE9C3A00923825 /* LaunchScreen.storyboard */; };
+		500440921FAE9D8600923825 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5004408C1FAE9D8500923825 /* README.md */; };
+		500440931FAE9D8600923825 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 5004408D1FAE9D8500923825 /* assets */; };
+		500440941FAE9D8600923825 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 5004408E1FAE9D8500923825 /* js */; };
+		500440951FAE9D8600923825 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5004408F1FAE9D8500923825 /* LICENSE */; };
+		500440961FAE9D8600923825 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 500440901FAE9D8500923825 /* index.html */; };
+		500440971FAE9D8600923825 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 500440911FAE9D8500923825 /* css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		500440741FAE9C3A00923825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500440771FAE9C3A00923825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500440791FAE9C3A00923825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5004408C1FAE9D8500923825 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5004408D1FAE9D8500923825 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		5004408E1FAE9D8500923825 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		5004408F1FAE9D8500923825 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		500440901FAE9D8500923825 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		500440911FAE9D8500923825 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		500440611FAE9C3A00923825 = {
 			isa = PBXGroup;
 			children = (
+				5004407F1FAE9C6000923825 /* Resources */,
 				5004406C1FAE9C3A00923825 /* WebViewFloppyBird */,
 				5004406B1FAE9C3A00923825 /* Products */,
 			);
@@ -62,6 +75,19 @@
 				500440791FAE9C3A00923825 /* Info.plist */,
 			);
 			path = WebViewFloppyBird;
+			sourceTree = "<group>";
+		};
+		5004407F1FAE9C6000923825 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5004408D1FAE9D8500923825 /* assets */,
+				500440911FAE9D8500923825 /* css */,
+				500440901FAE9D8500923825 /* index.html */,
+				5004408E1FAE9D8500923825 /* js */,
+				5004408F1FAE9D8500923825 /* LICENSE */,
+				5004408C1FAE9D8500923825 /* README.md */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500440971FAE9D8600923825 /* css in Resources */,
+				500440931FAE9D8600923825 /* assets in Resources */,
+				500440941FAE9D8600923825 /* js in Resources */,
 				500440781FAE9C3A00923825 /* LaunchScreen.storyboard in Resources */,
+				500440951FAE9D8600923825 /* LICENSE in Resources */,
 				500440751FAE9C3A00923825 /* Assets.xcassets in Resources */,
+				500440961FAE9D8600923825 /* index.html in Resources */,
+				500440921FAE9D8600923825 /* README.md in Resources */,
 				500440731FAE9C3A00923825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3W8975VCP;
 				INFOPLIST_FILE = WebViewFloppyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.no32.WebViewFloppyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3W8975VCP;
 				INFOPLIST_FILE = WebViewFloppyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.no32.WebViewFloppyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
